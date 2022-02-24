@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 /**
- * @title NAOToken
+ * @title NAFFToken
  *
  * @dev A minimal ERC20 token contract for the NAFF token.
  */
