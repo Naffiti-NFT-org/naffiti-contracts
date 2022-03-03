@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
  * @dev A minimal ERC20 token contract for the NAFF token.
  */
 contract NAFFToken is ERC20("Naffiti Token", "NAFF") {
-    uint256 private constant TOTAL_SUPPLY = 1000000000e18; // Total initial Supply 
+    uint256 private constant TOTAL_SUPPLY = 10**9*1e18; // Total initial Supply 
     uint256 private constant publicSaleListing = (2 * TOTAL_SUPPLY / 100); //20 Million (2% of initial Supply)
     address private constant publicSaleListingWalletunVested = address(0x8582DEEfBBAa1F53018A5A8C0E85bCd0af1502Be);
     uint256 private constant seedRound = (6 * TOTAL_SUPPLY / 100); //60 Million (6% of initial Supply)
